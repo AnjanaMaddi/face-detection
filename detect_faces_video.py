@@ -76,7 +76,7 @@ while True:
 		text = "{:.2f}%".format(confidence * 100)
 		if shift*100>size:
 			i+=1
-			cv2.imwrite(r"C:\Users\anjan\OneDrive\Desktop\deep-learning-face-detection\geeks"+str(i)+".jpg", frame, [cv2.IMWRITE_JPEG_QUALITY, 50])
+			cv2.imwrite(r"captured_images\geeks"+str(i)+".jpg", frame, [cv2.IMWRITE_JPEG_QUALITY, 50])
 			print("captured")
 			text=text+" error"
 
