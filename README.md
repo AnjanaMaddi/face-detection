@@ -12,3 +12,7 @@ here we are using a caffemodel so we have the respective prototext file
 This contains the pre trained model that is used to detect faces built using caffe framework
 ### detect_faces_video.py file
 This file contains the python code for boxing the face in the video streaming and saving captured photes
+## Aim of the project
+The main Aim of this project is to design a webcam monitered online text which can automatically capture images of the students 
+taking test, where there is a greater degree of movement.
+This is the python implementation of the deep learning model which needs to be deployed in a website to build the complete project.
