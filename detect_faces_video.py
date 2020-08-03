@@ -1,14 +1,9 @@
-# USAGE
-# python detect_faces_video.py --prototxt deploy.prototxt.txt --model res10_300x300_ssd_iter_140000.caffemodel
-
-# import the necessary packages
 from imutils.video import VideoStream
 import numpy as np
 import argparse
 import imutils
 import time
 import cv2
-import math
 
 # construct the argument parse and parse the arguments
 ap = argparse.ArgumentParser()
@@ -35,8 +30,7 @@ prevsty = 0
 prevenx = 0
 preveny = 0
 while True:
-	# grab the frame from the threaded video stream and resize it
-	# to have a maximum width of 400 pixels
+	# grab the frame from the threaded video stream and resize it to have a maximum width of 400 pixels
 	frame = vs.read()
 	frame = imutils.resize(frame, width=400)
 	# grab the frame dimensions and convert it to a blob
