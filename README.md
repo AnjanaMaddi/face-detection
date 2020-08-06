@@ -16,3 +16,5 @@ This file contains the python code for boxing the face in the video streaming an
 The main Aim of this project is to design a webcam monitered online text which can automatically capture images of the students 
 taking test, where there is a greater degree of movement.
 This is the python implementation of the deep learning model which needs to be deployed in a website to build the complete project.
+### command line argument
+python detect_faces_video.py --prototxt deploy.prototxt.txt --model res10_300x300_ssd_iter_140000.caffemodel
